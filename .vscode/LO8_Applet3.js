@@ -50,3 +50,7 @@ class DataLogger {
     }
 
 }
+// Initialize the DataLogger when the DOM content is fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+    new DataLogger('logButton', 'cardContainer', 'clearButton', 'logCount');
+});
