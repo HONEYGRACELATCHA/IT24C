@@ -9,4 +9,11 @@ class DataLogger {
         this.logButton.addEventListener('click', () => this.logData());
         this.clearButton.addEventListener('click', () => this.clearLogs());
     }
+    // Logs the current timestamp and updates the display
+    logData() {
+        const timestamp = new Date().toLocaleString();
+        this.loggedData.push(timestamp);
+        this.updateCardContainer();
+    }
+
 }
