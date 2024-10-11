@@ -15,5 +15,11 @@ class DataLogger {
         this.loggedData.push(timestamp);
         this.updateCardContainer();
     }
+    // Clears all logged data and updates the display
+    clearLogs() {
+        this.loggedData = [];
+        this.updateCardContainer();
+    }
+
 
 }
