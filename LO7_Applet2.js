@@ -33,6 +33,6 @@ myMap.addMarker(8.359639,124.869179, 'CCS Laboratory 1');
 myMap.addMarker(8.359554,124.869153, 'CCS Laboratory 2');
 */
 
-myMap.loadMarkersFromJson('L07_Applet2.json');
+myMap.loadMarkersFromJson('LO7_Applet2.json');
 
 

@@ -1,0 +1,26 @@
+[
+    {
+        "student_id": 1,
+        "student_name": "Jacobi Israeli Jr.",
+        "student_program": "BS-Computer Manghilotay",
+        "student_enrolled_date": "2023-01-15"
+    },
+    {
+        "student_id": 2,
+        "student_name": "Joe Rowz",
+        "student_program": "BS-Computer Riderist",
+        "student_enrolled_date": "2023-02-20"
+    },
+    {
+        "student_id": 3,
+        "student_name": "Ardi Jin",
+        "student_program": "BS - Information Technology",
+        "student_enrolled_date": "2023-03-10"
+    },
+    {
+        "student_id": 4,
+        "student_name": "MarJoban",
+        "student_program": "BS - Information Technology",
+        "student_enrolled_date": "2023-03-10"
+    }
+]
