@@ -3,5 +3,10 @@
         "title": "Applet 1 - Basic Events",
         "description": "This application contains the basic implementation of DOM events",
         "link": "Applet-1/LO6_Applet1.html"
+    },
+    {
+        "title": "Applet 2 - Leaflet Map",
+        "description": "This application contains the basic web map",
+        "link": "Applet-2/LO7_Applet2.html"
     }
 ]
