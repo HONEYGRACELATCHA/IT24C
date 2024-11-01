@@ -8,5 +8,10 @@
         "title": "Applet 2 - Leaflet Map",
         "description": "This application contains the basic web map",
         "link": "Applet-2/LO7_Applet2.html"
+    },
+    {
+        "title": "Applet 3 - Event Button Logger",
+        "description": "This application applies the recording events while using the HTML elements such as buttons",
+        "link": "Applet-3/LO8_Applet3.html"
     }
 ]
