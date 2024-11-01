@@ -46,4 +46,15 @@ class AppletRenderer {
             this.container.appendChild(cardElement);
         });
     }
+
+    filterApplets() {
+        const query = this.searchInput.value.toLowerCase();
+        this.filteredData = this.appletData.filter(applet =>
+            applet.title.toLowerCase().includes(query) ||
+            applet.description.toLowerCase().includes(query)
+        );
+        this.renderApplets(this.filteredData);
+    }
 }
+const appletRenderer = new AppletRenderer('applet-container', 'searchApplet');
+appletRenderer.fetchAppletData('gallery.json');
