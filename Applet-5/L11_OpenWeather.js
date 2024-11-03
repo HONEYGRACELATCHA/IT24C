@@ -96,5 +96,12 @@ class WeatherService extends WeatherApp {
         return null;
     }
 }
+const weatherApp = new WeatherService();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = new bootstrap.Modal(document.getElementById('infoModal'));
+    modal.show();
+});
+
 
 
