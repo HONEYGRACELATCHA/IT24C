@@ -18,5 +18,15 @@
         "title": "Applet 4 - Dynamic Elements",
         "description": "This application applies dynamic elements such as rendering DOM elements from a list",
         "link": "Applet-4/LO9_Dynamic-Elements.html"
+    },
+    {
+        "title": "Applet 5 - Open Weather",
+        "description": "This application is the basic usage of the Openweather API",
+        "link": "Applet-5/L11_OpenWeather.html"
+    },
+    {
+        "title": "Applet 6 - Todo List",
+        "description": "A to-do list is a tool that helps individuals manage tasks by allowing them to add, edit, and remove items.",
+        "link": "Applet-6/L12_TodoList.html"
     }
 ]
